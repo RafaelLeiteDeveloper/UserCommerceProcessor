@@ -1,0 +1,9 @@
+server.port: ${SERVER_PORT:8080}
+
+spring:
+  application:
+    name: shooping
+  urls:
+    products: ${URL_PRODUCT:https://rgr3viiqdl8sikgv.public.blob.vercel-storage.com/produtos-mnboX5IPl6VgG390FECTKqHsD9SkLS.json}
+    clients-purchases: ${URL_CLIENTS_PURCHASES:https://rgr3viiqdl8sikgv.public.blob.vercel-storage.com/clientes-Vz1U6aR3GTsjb3W8BRJhcNKmA81pVh.json}
+
